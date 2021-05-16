@@ -180,7 +180,7 @@ nav{
 }
 .review-text{
     text-align: justify;
-    opacity: .8;
+    color: rgba(0, 0, 0, .8);
     font-size: 80%;
 }
 footer{
