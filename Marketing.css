@@ -21,10 +21,10 @@ body{
 nav{
     position: sticky;
     top: 0;
-    background-color: rgba(255, 255, 255, .9);
     padding: 1rem 5rem;
     width: 100vw;
     justify-content: space-between;
+    background-color: rgba(255, 255, 255, .9)
 }
 .name{
     color: #fc6076;
