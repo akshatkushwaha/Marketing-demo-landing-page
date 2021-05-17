@@ -58,22 +58,21 @@ nav{
     font-size: 200%;
 }
 .head-input{
-    width: 700px;
-    justify-content: center;
-}
-.head-input input,
-.head-input button{
-    margin: 1rem -3rem;
-}
-.head-email-input{
-    padding: 1rem 2rem;
-    color: rgb(63, 63, 63);
-    margin: 2rem;
-    width: 70%;
-    height: 60px;
-    border-radius: 30px ;
-    border: none;
+    width: fit-content;
+    justify-content: space-between;
+    border-radius: 30px;
+    width: 550px;
     background-color: rgba(0, 0, 0, .1);
+    position: relative;
+}
+
+.head-email-input{
+    padding: 0rem 2rem;
+    color: rgb(63, 63, 63);
+    height: 40px;
+    width: 70%;
+    border: none;
+    background-color: transparent;
     font-size: 120%;
 }
 .head-email-input:focus{
@@ -256,8 +255,10 @@ footer{
     }
     .head-input{
         width: 100%;
+        height: fit-content;
         padding-bottom: 0;
         flex-direction: column;
+        background-color: transparent;
     }
     .head-input input,
     .head-input buttin{
@@ -268,8 +269,10 @@ footer{
         width: 90%;
         height: 40px;
         border-radius: 20px ;
+        background-color: rgba(0, 0, 0, .1);
     }
     .head-button{
+        margin-top: 1.5rem;
         height: 40px;
         border-radius: 20px;
     }
